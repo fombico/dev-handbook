@@ -9,7 +9,7 @@ draft: true
 
 A handbook for software development and deployment practices, naming conventions, design patterns, and project recipes.
 
-Visit the sidebar for content.
+Visit the sidebar for content or search for a topic.
 
 Clone this repo and view the README to contribute.
 

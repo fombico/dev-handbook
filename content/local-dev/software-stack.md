@@ -69,6 +69,19 @@ Sublime Text may be downloaded and evaluated for free, however a license must be
 There is currently no enforced time limit for the evaluation.
 {{% /notice %}}
 
+### Creating a symlink
+
+Create a symlink so you can open a file or directory from the terminal using sublime:
+
+```
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+```
+
+Usage:
+```
+sublime ~/workspace/config-server
+```
+
 ## Docker Desktop
 
 Docker Desktop community edition, for running docker images locally.

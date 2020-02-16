@@ -10,6 +10,12 @@ Present to the team to get a mutually agreed upon set of practices and conventio
 Update pages with feedback from the team and remove the ones that do not apply.
 Add new pages as you see fit. 
 
+## Customizing for your team
+
+- Replace the `baseURL` in `config.toml` with your host
+- Update the [logo](https://learn.netlify.com/en/basics/style-customization/#change-the-logo)
+  and/or [favicon](https://learn.netlify.com/en/basics/style-customization/#change-the-favicon)
+
 ## Launching the handbook
 
 1. Install `hugo`
@@ -53,9 +59,14 @@ The Hugo Learn Theme used in the project also introduces additional [shortcodes]
 
 If you moved or deleted pages, the locally running server might not pick it up properly until it is restarted.
 
-## Deployment
+## PCF Deployment
 
-TODO
+Uses the `manifest.yml` and runs on the staticfile buildpack.
+
+```
+./publish
+cf push
+```
 
 ## Resources
 

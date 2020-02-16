@@ -1,0 +1,8 @@
+---
+applications:
+  - name: dev-handbook
+    memory: 64M
+    buildpacks:
+      - staticfile_buildpack
+    env:
+      FORCE_HTTPS: true

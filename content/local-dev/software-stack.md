@@ -11,15 +11,15 @@ Here's a list of software we typically use in local development.
 
 | Name | Use | <i class="fab fa-apple"></i> | <i class="fab fa-windows"></i> | Cost | Link |
 | ---- | --- | --- | ------- | ---- | ---- |
-| [IntelliJ IDEA Ultimate Edition](#intellij-idea-ultimate-edition) | IDE | ✔ | ✔ | [Paid](https://www.jetbrains.com/idea/buy/#commercial?billing=yearly) | https://www.jetbrains.com/idea/ |
-| [Postman](#postman) | API Client | ✔ | ✔ | Free, [Paid](https://www.postman.com/pricing) | https://www.postman.com/ |
-| [Sublime Text 3](#sublime-text-3) | Text Editor | ✔ | ✔ | Free* | https://www.sublimetext.com/3 |
-| [Docker Desktop](#docker-desktop) | Docker | [✔](https://hub.docker.com/editions/community/docker-ce-desktop-mac) | [✔](https://hub.docker.com/editions/community/docker-ce-desktop-windows) | Free | https://hub.docker.com/ |
-| [Sourcetree](#sourcetree) | Git GUI | ✔ | ✔ | Free* | https://www.sourcetreeapp.com/ |
-| [GitX-dev](#gitx-dev) | Git GUI | ✔ | ✘ | Free | https://rowanj.github.io/gitx/ |
-| [iTerm2](#iterm2) | Terminal | ✔ | ✘ | Free | https://iterm2.com/index.html |
-| [Flycut](#flycut) | Clipboard Tool | ✔ | ✘ | Free | https://github.com/TermiT/Flycut/releases | 
-| [ShiftIt](#shiftit) | Window Management Tool | ✔ | ✘ | Free | https://github.com/fikovnik/ShiftIt/releases | 
+| [IntelliJ IDEA Ultimate Edition](#intellij-idea-ultimate-edition) | IDE | ✔ | ✔ | [Paid](https://www.jetbrains.com/idea/buy/#commercial?billing=yearly) | [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/) |
+| [Postman](#postman) | API Client | ✔ | ✔ | Free, [Paid](https://www.postman.com/pricing) | [https://www.postman.com/](https://www.postman.com/) |
+| [Sublime Text 3](#sublime-text-3) | Text Editor | ✔ | ✔ | Free* | [https://www.sublimetext.com/3](https://www.sublimetext.com/3) |
+| [Docker Desktop](#docker-desktop) | Docker | [✔](https://hub.docker.com/editions/community/docker-ce-desktop-mac) | [✔](https://hub.docker.com/editions/community/docker-ce-desktop-windows) | Free | [https://hub.docker.com/](https://hub.docker.com/) |
+| [Sourcetree](#sourcetree) | Git GUI | ✔ | ✔ | Free* | [https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/) |
+| [GitX-dev](#gitx-dev) | Git GUI | ✔ | ✘ | Free | [https://rowanj.github.io/gitx/](https://rowanj.github.io/gitx/) |
+| [iTerm2](#iterm2) | Terminal | ✔ | ✘ | Free | [https://iterm2.com/index.html](https://iterm2.com/index.html) |
+| [Flycut](#flycut) | Clipboard Tool | ✔ | ✘ | Free | [https://github.com/TermiT/Flycut/releases](https://github.com/TermiT/Flycut/releases) |
+| [ShiftIt](#shiftit) | Window Management Tool | ✔ | ✘ | Free | [https://github.com/fikovnik/ShiftIt/releases](https://github.com/fikovnik/ShiftIt/releases) |
 
 {{% notice info %}}
 Consider moving this page into its own section, and the content below into pages within that section.
@@ -73,8 +73,8 @@ There is currently no enforced time limit for the evaluation.
 Docker Desktop community edition, for running docker images locally.
 
 To get around the login page, use the links below:
-- Mac: https://hub.docker.com/editions/community/docker-ce-desktop-mac
-- Windows: https://hub.docker.com/editions/community/docker-ce-desktop-windows
+- Mac: [docker-ce-desktop-mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
+- Windows: [docker-ce-desktop-windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
 ## Sourcetree
 

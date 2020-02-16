@@ -45,7 +45,7 @@ hugo new <section>/_index.md
 The handbook content is typically written in [Markdown](https://en.wikipedia.org/wiki/Markdown),
 a readable, easy-to-learn mark-up language - that this very README file uses.
 
-However, Markdown can be limiting, so Hugo introduced __[shortcodes](https://gohugo.io/content-management/shortcodes/)__ 
+However, Markdown can be limiting, so Hugo introduced [shortcodes](https://gohugo.io/content-management/shortcodes/) 
 to help overcome these limitations without resorting to HTML.
 The Hugo Learn Theme used in the project also introduces additional [shortcodes](https://learn.netlify.com/en/shortcodes/).
 

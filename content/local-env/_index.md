@@ -2,6 +2,7 @@
 title: "Local Environment"
 date: 2020-02-15T20:24:12-05:00
 draft: true
+weight: 20
 ---
 
 ---

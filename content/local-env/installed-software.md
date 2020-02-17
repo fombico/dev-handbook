@@ -1,5 +1,5 @@
 ---
-title: "Software Stack"
+title: "Installed Software"
 date: 2020-02-15T21:19:02-05:00
 draft: true
 weight: 20

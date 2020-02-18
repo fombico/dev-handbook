@@ -2,6 +2,7 @@
 title: "TDD, Functional Testing"
 date: 2020-02-16T23:28:48-05:00
 draft: true
+weight: 20
 ---
 
 ---

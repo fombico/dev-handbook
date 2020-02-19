@@ -174,9 +174,19 @@ cf unregister-metrics-endpoint [-p PATH]
 
 ---
 
+## Further Reading
+
+Google has posted content around Site Reliability Engineering, which is related to this topic and more.
+
+- [Site Reliability Engineering - Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
+- [The Site Reliability Workbook - Monitoring](https://landing.google.com/sre/workbook/chapters/monitoring/)
+
+---
+
 ## Additional Resources
 - [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html)
 - [Spring Boot Actuator Metrics Configuration](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-metrics)
 - [Micrometer Homepage](https://micrometer.io/)
 - [Micrometer Naming Convention](https://micrometer.io/docs/concepts#_naming_meters)
 - [PCF Metrics Registrar](https://docs.pivotal.io/pivotalcf/2-6/metric-registrar/using.html)
+- [Google SRE Books](https://landing.google.com/sre/books/)

@@ -22,6 +22,11 @@ Add new pages as you see fit.
     ```
     brew install hugo
     ```
+   
+1. Initialize the git submodule
+   ```
+   git submodule update --init --recursive
+   ```
 
 1. Run locally (default: `http://localhost:1313`)
    ```

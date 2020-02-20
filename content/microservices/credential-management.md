@@ -6,6 +6,8 @@ draft: true
 
 ---
 
+## Introduction
+
 Our microservices do not live in a vacuum, they integrate with our APIs and other systems. 
 These systems will often require us to present some form of credentials.
 This page describes some tools we can use to manage these credentials.

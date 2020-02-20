@@ -102,12 +102,56 @@ Since our Spring Boot apps use Micrometer,
 we need to use Micrometer's naming convention of lowercase words separated by the '.' (dot) character.
 The vendor implementations will take care of transforming the lowercase-dot notation to that system's convention.
 
-For example, if you had a metric `app.store.order.placed`, 
-the Prometheus implementation would export it as `app_store_order_placed` automatically.
+For example, if you had a counter metric called `app.store.order.placed`,
+the Prometheus implementation would export it as `app_store_order_placed_total` automatically.
 
 This is documented on the [Micrometer site](https://micrometer.io/docs/concepts#_naming_meters).
 
+### Counters in Micrometer
+
+When counters metrics are created, a 'total' suffix is added to your metric - representing the total count, of course.
+
+### Timers in Micrometer
+
+When timer metrics are created, micrometer can measure three things:
+- __count__ - the number of occurrences of this metric.
+  An ever increasing number, but an instance restart will reset this to zero
+- __sum__ - the sum of the durations across this metric. E.g. If two events occurred, the first being 0.5ms, the second at 0.55ms,
+  this value would be 1.05ms.
+- __max__ - the max duration detected. 0.55ms in the previous example.
+
 ---
+
+### Sample output
+
+If you used the Prometheus Micrometer implementation and enabled Prometheus actuator endpoint,
+then the output of `/actuator/prometheus` may look like:
+
+```
+...
+# HELP http_client_requests_seconds Timer of RestTemplate operation
+# TYPE http_client_requests_seconds summary
+http_client_requests_seconds_count{application="Prometheus Metrics Demo",clientName="httpstat.us",method="GET",status="300",uri="/{httpCode}",} 1.0
+http_client_requests_seconds_sum{application="Prometheus Metrics Demo",clientName="httpstat.us",method="GET",status="300",uri="/{httpCode}",} 0.45478262
+http_client_requests_seconds_count{application="Prometheus Metrics Demo",clientName="httpstat.us",method="GET",status="200",uri="/{httpCode}",} 1.0
+http_client_requests_seconds_sum{application="Prometheus Metrics Demo",clientName="httpstat.us",method="GET",status="200",uri="/{httpCode}",} 0.936610721
+# HELP http_client_requests_seconds_max Timer of RestTemplate operation
+# TYPE http_client_requests_seconds_max gauge
+http_client_requests_seconds_max{application="Prometheus Metrics Demo",clientName="httpstat.us",method="GET",status="300",uri="/{httpCode}",} 0.45478262
+http_client_requests_seconds_max{application="Prometheus Metrics Demo",clientName="httpstat.us",method="GET",status="200",uri="/{httpCode}",} 0.936610721
+
+# HELP tomcat_sessions_created_sessions_total
+# TYPE tomcat_sessions_created_sessions_total counter
+tomcat_sessions_created_sessions_total{application="Prometheus Metrics Demo",} 0.0
+...
+```
+
+This example shows:
+- a `http_client_requests_seconds` timer metric composed of three metrics
+    - see the `_count`, `_sum`, and `_max` suffixes
+    - one set of metrics where status dimension is "300", and one where status is "200"
+- a `tomcat_sessions_created_sessions_total` counter metric, also with its own set of of dimensions
+
 
 ## Metrics on PCF Apps
 
@@ -120,9 +164,9 @@ such as Splunk or DataDog.
 While PCF has a metrics page, known as PCF Metrics, the actually functionality is limited.
 For example, it is difficult to change the time-scales, labels, titles, etc.
 
-The PCF Metrics Registrar can parse metrics exported in the _prometheus_ format, exposed via `/actuator/prometheus`. 
-To do this, we need to add the prometheus micrometer dependency in our apps. 
-We also need to enable the prometheus actuator, but it should be enabled when the library is added.
+The PCF Metrics Registrar can parse metrics exported in the _Prometheus_ format, exposed via `/actuator/prometheus`.
+To do this, we need to add the Prometheus Micrometer dependency in our apps.
+We also need to enable the Prometheus actuator, but it should be enabled when the library is added.
 
 If for some reason it is still disabled, you can enable it by adding the following to your application yml:
 

@@ -15,8 +15,8 @@ unsafe= true
 disableBreadcrumb = false
 disableNextPrev = true
 
-# Show tags on sidebar
-[[menu.shortcuts]]
-name = "<i class='fas fa-tags'></i> Tags"
-url = "/tags"
-weight = 30
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/fombico/dev-handbook"
+weight = 10

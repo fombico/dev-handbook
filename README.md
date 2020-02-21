@@ -2,6 +2,8 @@
 
 A handbook for software development and deployment practices, naming conventions, design patterns, and project recipes.
 
+Visit the live site at https://dev-handbook.cfapps.io/.
+
 This project uses [Hugo](https://gohugo.io/), an open-source static site generator.
 
 ## Discussing with the team

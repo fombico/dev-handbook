@@ -11,7 +11,7 @@ A handbook for software development and deployment practices, naming conventions
 
 Visit the sidebar for content or search for a topic.
 
-Clone this repo and view the README to contribute.
+Feel free to fork this project on <i class='fab fa-github'></i> [GitHub](https://github.com/fombico/dev-handbook).
 
 ### Why a handbook over a repo wiki?
 

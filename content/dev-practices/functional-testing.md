@@ -114,4 +114,4 @@ We have three layers to our pyramid:
     - tend to be the fewest in number, usually covering only happy paths, and take the longest to run
 
 <!-- Add the query param width=100%, otherwise header links break -->
-![Testing Pyramid](/images/dev-practices/testing-pyramid.svg?width=100%)
+![Testing Pyramid](/images/dev-practices/functional-testing/testing-pyramid.svg?width=100%)

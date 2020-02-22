@@ -48,10 +48,23 @@ However, since we advocate for small commits and continuous integration, rebasin
 There are times when you need to force push a branch, thereby overwriting the remote branch with your local copy. 
 If there are other commits in the remote branch by other members of the team, those changes will be lost. 
 To avoid this scenario, consider making use of the `--force-with-lease` flag, which will reject your push.
+In doing so, you will have the opportunity to incorporate their changes.
 
 ```
 git push origin --force-with-lease <branch-name>
 ```
+
+### Clean up branches
+
+If you make branches - say for a pull request process, clean them up on remote once you are done merging.
+You should avoid keeping old branches - they'll quickly go stale, no one remembers what they were working on, 
+and it will clutter the repo. 
+
+You should also clean up branches on your local machine. 
+By using the prune command, you remove references to deleted remote branches:
+```
+git fetch --prune
+``` 
 
 ---
 

@@ -36,3 +36,6 @@ This page describes general naming conventions for APIs.
 | POST | /v1/{aggregate-plural-form}/actions | /v1/exceptions/actions | Perform one or more actions for multiple entities |
 | POST | /v1/{aggregate-plural-form}/actions/{name} | /v1/exceptions/actions/acknowledge | Perform a named action on multiple entities |
 
+## Additional Resources
+- [API-First Approach]({{< relref "microservices/api-first-approach" >}})
+

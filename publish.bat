@@ -1,1 +1,1 @@
-hugo -Ds "" --gc --minify
+hugo -Ds "" --gc

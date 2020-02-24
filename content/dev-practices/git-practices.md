@@ -135,5 +135,6 @@ The result is commit E' with a new hash. Commits D and F are not applied.
 
 ## Additional Resources
 
-- [Bitbucket Merge Tutorial](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+- [Git Merge - Bitbucket Tutorial](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+- [Merging vs Rebasing - Bitbucket Tutorial](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 - [force-with-lease - Atlassian Developer Blog](https://blog.developer.atlassian.com/force-with-lease/)

@@ -39,6 +39,9 @@ However, it is missing useful additional features, such as:
 
 [Click here to see a comparison of Ultimate vs Community Edition](https://www.jetbrains.com/idea/features/editions_comparison_matrix.html).
 
+IntelliJ has a [Perpetual License Fallback](https://sales.jetbrains.com/hc/en-gb/articles/207240845-What-is-perpetual-fallback-license-),
+allowing you to use a specific version of the software without an active subscription for it.
+
 [Click here for a printable PDF of the default shortcuts we use](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf).
 
 ### IntelliJ Plugins

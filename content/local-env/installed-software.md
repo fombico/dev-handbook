@@ -21,6 +21,8 @@ Here's a list of software we typically use in local development.
 | [iTerm2](#iterm2) | Terminal | ✔ | ✘ | Free | [https://iterm2.com/index.html](https://iterm2.com/index.html) |
 | [Flycut](#flycut) | Clipboard Tool | ✔ | ✘ | Free | [https://github.com/TermiT/Flycut/releases](https://github.com/TermiT/Flycut/releases) |
 | [ShiftIt](#shiftit) | Window Management Tool | ✔ | ✘ | Free | [https://github.com/fikovnik/ShiftIt/releases](https://github.com/fikovnik/ShiftIt/releases) |
+| [Windows Subsystem for Linux](#windows-subsystem-for-linux) | Linux shell on Windows | ✘ | ✔ | Free | [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10) |
+| [Git for Windows](#git-for-windows) | Git GUI and CLI | ✘ | ✔ | Free | [https://github.com/git-for-windows/git/releases](https://github.com/git-for-windows/git/releases) |
 
 {{% notice info %}}
 Consider moving this page into its own section, and the content below into pages within that section.
@@ -121,5 +123,28 @@ The shortcut is typically  ⌘ + ⇧ + V.
 
 ## ShiftIt
 
-ShiftIt is a window management tool for mac. This lets you maximize a window, 
-or place it on the left/right/bottom/top half of your screen. 
+ShiftIt is a window management tool for mac. 
+This lets you maximize a window, or place it on the left/right/bottom/top half of your screen. 
+
+## Windows Subsystem for Linux
+
+From the [faq](https://docs.microsoft.com/en-us/windows/wsl/faq):
+
+> The Windows Subsystem for Linux (WSL) is a new Windows 10 feature that enables you to run native Linux command-line 
+> tools directly on Windows, alongside your traditional Windows desktop and modern store apps.
+>
+> ...
+>
+> This allows those who want/need to use Bash, common Linux tools (sed, awk, etc.) and many Linux-first tools 
+> (Ruby, Python, etc.) to use their toolchain on Windows.
+
+Highly recommend having this for development on Windows.
+
+## Git for Windows
+
+A lightweight set of tools for using git on Windows, including:
+- Git BASH - a BASH emulation that can run some common linux commands
+- Git GUI - provides a graphical view of the git tree
+- Shell Integration - adds a context menu item to open your folder in the Git BASH or Git GUI program
+
+It is not a full alternative to the Windows Subsystem for Linux, but is a good option if WSL is not allowed.

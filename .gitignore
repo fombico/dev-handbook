@@ -9,3 +9,4 @@ dev/
 .wercker/
 params.yml
 node_modules
+*.iml

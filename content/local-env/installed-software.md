@@ -12,8 +12,10 @@ Here's a list of software we typically use in local development.
 
 | Name | Use | <i class="fab fa-apple"></i> | <i class="fab fa-windows"></i> | Cost | Link |
 | ---- | --- | --- | ------- | ---- | ---- |
-| [IntelliJ IDEA Ultimate Edition](#intellij-idea-ultimate-edition) | IDE | ✔ | ✔ | [Paid](https://www.jetbrains.com/idea/buy/#commercial?billing=yearly) | [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/) |
+| [IntelliJ IDEA Ultimate Edition](#intellij-idea-ultimate-edition) | Spring/Kotlin/Java IDE | ✔ | ✔ | [Paid](https://www.jetbrains.com/idea/buy/#commercial?billing=yearly) | [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/) |
+| [IntelliJ Rider](#intellij-rider) | .NET/F# IDE | ✔ | ✔ | [Paid](https://www.jetbrains.com/rider/buy/#personal?billing=yearly) | [https://www.jetbrains.com/rider/](https://www.jetbrains.com/rider/) |
 | [Postman](#postman) | API Client | ✔ | ✔ | Free, [Paid](https://www.postman.com/pricing) | [https://www.postman.com/](https://www.postman.com/) |
+| [Visual Studio Code](#visual-studio-code) | Lightweight IDE | ✔ | ✔ | Free | [https://code.visualstudio.com/](https://code.visualstudio.com/) |
 | [Sublime Text 3](#sublime-text-3) | Text Editor | ✔ | ✔ | Free* | [https://www.sublimetext.com/3](https://www.sublimetext.com/3) |
 | [Docker Desktop](#docker-desktop) | Docker | [✔](https://hub.docker.com/editions/community/docker-ce-desktop-mac) | [✔](https://hub.docker.com/editions/community/docker-ce-desktop-windows) | Free | [https://hub.docker.com/](https://hub.docker.com/) |
 | [Sourcetree](#sourcetree) | Git GUI | ✔ | ✔ | Free* | [https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/) |
@@ -46,7 +48,7 @@ allowing you to use a specific version of the software without an active subscri
 
 [Click here for a printable PDF of the default shortcuts we use](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf).
 
-### IntelliJ Plugins
+### IntelliJ IDEA Plugins
 
 #### [Lombok](https://plugins.jetbrains.com/plugin/6317-lombok) 
 A free plugin that adds first-class support for [Project Lombok](https://projectlombok.org/).
@@ -56,6 +58,18 @@ we need this plugin to automatically generate the code in the IDE.
 #### [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant) 
 A free plugin that briefly shows the shortcut commands as they are used.
 Useful when pairing with new IntelliJ users.  
+
+## IntelliJ Rider
+
+Also from IntelliJ, Rider is a .NET IDE for Windows and Mac. It is an excellent choice for .NET Core projects.
+
+There is a 30-day free trial, but no community edition.
+
+## Visual Studio Code
+
+A cross-platform, open-source, lightweight IDE. Great for web projects, 
+and where you don't need the full power of IntelliJ.
+It's also a free alternative to Rider if you want to try .NET projects on a Mac.
 
 ## Postman
 

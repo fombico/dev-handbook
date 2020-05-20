@@ -35,6 +35,11 @@ The fly CLI is the command line interface to [Concourse](https://concourse-ci.or
 
 [Documentation](https://concourse-ci.org/fly.html)
 
+To install using brew:
+```
+brew cask install fly
+```
+
 ## minikube
 
 A CLI tool for running a Kubernetes cluster locally. You can use this for day-to-day local Kubernetes development

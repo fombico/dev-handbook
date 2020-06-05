@@ -71,6 +71,17 @@ A cross-platform, open-source, lightweight IDE. Great for web projects,
 and where you don't need the full power of IntelliJ.
 It's also a free alternative to Rider if you want to try .NET projects on a Mac.
 
+For mac, here's an alias:
+```
+alias vscode="open -a Visual\ Studio\ Code.app"
+```
+
+You can then open files and directories using `vscode`:
+```
+vscode .
+vscode package.json
+```
+
 ## Postman
 
 An client for testing out APIs. Consider the paid version if you want to share API collections, 

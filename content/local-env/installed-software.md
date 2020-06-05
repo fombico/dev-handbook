@@ -82,6 +82,10 @@ vscode .
 vscode package.json
 ```
 
+If you prefer the IntelliJ keybindings, you can install the
+[IntelliJ IDEA Keybindings](https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings)
+extension.
+
 ## Postman
 
 An client for testing out APIs. Consider the paid version if you want to share API collections, 

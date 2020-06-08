@@ -16,6 +16,11 @@ Makes JSON easy to read. Open source.
 
 [Chrome web store link](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
 
+#### React Developer Tools
+Adds React debugging tools to the Chrome Developer Tools.
+
+[Chrome web store link](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
 #### Wave Evaluation Tool
 Evaluate web accessibility within the Chrome browser.
 
